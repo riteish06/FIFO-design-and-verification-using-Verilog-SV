@@ -1,0 +1,382 @@
+$date
+Sat Sep  2 09:48:21 2023
+$end
+$version
+Riviera-PRO Version 2022.04.117.8517
+$end
+$timescale
+1 ns
+$end
+
+$scope module tb $end
+$upscope $end
+
+
+$scope module tb_drv $end
+$var event 1 ! next $end
+
+$scope module fif $end
+$var reg 1 " clock $end
+$var reg 1 # rd $end
+$var reg 1 $ wr $end
+$var reg 1 % full $end
+$var reg 1 & empty $end
+$var reg 8 ' data_in [7:0] $end
+$var reg 8 ( data_out [7:0] $end
+$var reg 1 ) rst $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 1 * clock $end
+$var wire 1 + rd $end
+$var wire 1 , wr $end
+$var wire 1 - full $end
+$var wire 1 . empty $end
+$var wire 8 / data_in [7:0] $end
+$var wire 1 0 rst $end
+$var reg 8 1 data_out [7:0] $end
+$var reg 5 2 wr_ptr [4:0] $end
+$var reg 5 3 rd_ptr [4:0] $end
+$var integer 32 4 i $end
+$upscope $end
+
+
+$scope task @FORK#214_0@ $end
+$upscope $end
+
+
+$scope task @FORK#215_1@ $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module tb_env $end
+
+$scope module fif $end
+$var reg 1 5 clock $end
+$var reg 1 6 rd $end
+$var reg 1 7 wr $end
+$var reg 1 8 full $end
+$var reg 1 9 empty $end
+$var reg 8 : data_in [7:0] $end
+$var reg 8 ; data_out [7:0] $end
+$var reg 1 < rst $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 1 = clock $end
+$var wire 1 > rd $end
+$var wire 1 ? wr $end
+$var wire 1 @ full $end
+$var wire 1 A empty $end
+$var wire 8 B data_in [7:0] $end
+$var wire 1 C rst $end
+$var reg 8 D data_out [7:0] $end
+$var reg 5 E wr_ptr [4:0] $end
+$var reg 5 F rd_ptr [4:0] $end
+$var integer 32 G i $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module tb_gen $end
+$upscope $end
+
+
+$scope module tb_mon $end
+$var event 1 H next $end
+
+$scope module fif $end
+$var reg 1 I clock $end
+$var reg 1 J rd $end
+$var reg 1 K wr $end
+$var reg 1 L full $end
+$var reg 1 M empty $end
+$var reg 8 N data_in [7:0] $end
+$var reg 8 O data_out [7:0] $end
+$var reg 1 P rst $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 1 Q clock $end
+$var wire 1 R rd $end
+$var wire 1 S wr $end
+$var wire 1 T full $end
+$var wire 1 U empty $end
+$var wire 8 V data_in [7:0] $end
+$var wire 1 W rst $end
+$var reg 8 X data_out [7:0] $end
+$var reg 5 Y wr_ptr [4:0] $end
+$var reg 5 Z rd_ptr [4:0] $end
+$var integer 32 [ i $end
+$upscope $end
+
+
+$scope task @FORK#373_0@ $end
+$upscope $end
+
+
+$scope task @FORK#374_1@ $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0"
+1#
+0$
+x%
+x&
+b10 '
+bx (
+x)
+0*
+1+
+0,
+x-
+x.
+b10 /
+x0
+bx 1
+bx 2
+bx 3
+bx 4
+05
+06
+07
+x8
+x9
+b0 :
+bx ;
+1<
+0=
+0>
+0?
+x@
+xA
+b0 B
+1C
+bx D
+bx E
+bx F
+bx G
+0I
+xJ
+xK
+xL
+xM
+bx N
+bx O
+xP
+0Q
+xR
+xS
+xT
+xU
+bx V
+xW
+bx X
+bx Y
+bx Z
+bx [
+$end
+#10
+1"
+15
+1I
+1Q
+1=
+1*
+b100000 G
+b0 D
+b0 F
+b0 E
+b0 ;
+0@
+08
+1A
+19
+#20
+0"
+05
+0I
+0Q
+0=
+0*
+#30
+1"
+15
+1I
+1Q
+1=
+1*
+1!
+1H
+#40
+0"
+05
+0I
+0Q
+0=
+0*
+#50
+1"
+15
+1I
+1Q
+1=
+1*
+#60
+0"
+05
+0I
+0Q
+0=
+0*
+#70
+1"
+15
+1I
+1Q
+1=
+1*
+1!
+1H
+0#
+1$
+b100 '
+b100 /
+1,
+0+
+#80
+0"
+05
+0I
+0Q
+0=
+0*
+#90
+1"
+15
+1I
+1Q
+1=
+1*
+0<
+16
+b11 :
+b11 B
+1>
+0C
+#100
+0"
+05
+0I
+0Q
+0=
+0*
+#110
+1"
+15
+1I
+1Q
+1=
+1*
+1!
+1H
+1#
+0$
+b11 '
+b11 /
+0,
+1+
+#120
+0"
+05
+0I
+0Q
+0=
+0*
+#130
+1"
+15
+1I
+1Q
+1=
+1*
+06
+17
+b10 :
+b10 B
+1?
+0>
+#140
+0"
+05
+0I
+0Q
+0=
+0*
+#150
+1"
+15
+1I
+1Q
+1=
+1*
+1!
+b1 E
+0A
+09
+1H
+0#
+1$
+b100 '
+b100 /
+1,
+0+
+#160
+0"
+05
+0I
+0Q
+0=
+0*
+#170
+1"
+15
+1I
+1Q
+1=
+1*
+b10 E
+#180
+0"
+05
+0I
+0Q
+0=
+0*
+#190
+1"
+15
+1I
+1Q
+1=
+1*
+1!
+b11 E
+1H
+1#
+0$
+b11 '
+b11 /
+0,
+1+
+#200
